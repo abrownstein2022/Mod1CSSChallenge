@@ -1,0 +1,170 @@
+/* ========================================
+Stylesheet for Refactor Assignment/ Horiseon Social Solution Services, Inc.
+Version 1.0
+Author: Alexis Brownstein - alexis@drdatabase.com
+Last modified: 8/18/22 2:25pm by Alexis Brownstein
+******************
+Color Palette
+#d9dcd6 - light gray
+#ffffff - dark gray
+#2a607c - blue with gray tint
+#2589bd - birght blue
+*******************
+CSS Table of Contents (in order of use on page)
+1- General/Global Settings Section
+2- Header Section contains navigation links
+3- Hero Image Section below Header
+4- Content Section
+5- Benefits Sectio
+6- Footer Section
+========================================== */
+
+/* === 1- General/Global Settings Section === */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* === 2- Header Section contains navigation links === */
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* === 3- Hero Image Section below Header ===*/
+
+/*changed class name from hero to hero-image in css and html to be more descriptive*/
+.hero-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* === 4- Content Section - below header and hero-image. To left of Benefits section
+ done with "Aside".  Displays Search Engine Optimization, Online Reputation 
+ Management and Social Media Marketing blocks. === */
+
+.content  {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.float-left { /*image is to the left */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right { /*image is to the right */
+    float: right;
+    margin-left: 25px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* === 5- Benefits Section - to right of main content section using Aside. 
+Displays Lead Generation, Brand Awareness and Cost Management blocks.
+below header and hero-image. === */
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* === 6- Footer Section - Bottom of website with latest copyright date. === */
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
