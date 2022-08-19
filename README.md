@@ -35,6 +35,7 @@ THEN I find a concise, descriptive title
 
 ## Table of Contents
 
+Note: Only lowercase letters after the # signs below or links don't work.
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -52,6 +53,7 @@ We used the VS Code software to edit code, git to pull the starter code to our l
 ## Usage
 
 Here's a link to my website stored in GitHub:
+https://abrownstein2022.github.io/Mod1CSSChallenge/
 
 Here's a screenshot of my final webpage from a browser:
     
@@ -60,7 +62,7 @@ Here's a screenshot of my final webpage from a browser:
 
 ## Credits
 
-Some of my fellow classmates and I got together on Zoom to review any issues we were having and help us understand possible fixes for issues we were having.  We each experienced different issues and were able to help each other work through some of these issues with patience and knowledgte.  We were able to help each other.  I think we had some different ways of approaching this project but it was helpful to get some feedback.  
+Some students in the class got together on Zoom to review any issues we were having with the challenge and try to help each other resolve and understand the issues.  I think we had different ways of approaching this project but it was helpful to get some feedback on our different approaches.  
 
 ## License
 
@@ -88,4 +90,4 @@ By having a set of original and test code, I could also easily compare my update
 
 Once my changed versions worked okay, I moved the orignal files out of my local folder and renamed the working files to the original names.  I have done this many times in my job over the years and it has worked well for me.
 
-Then I pushed my code to github using Git.  I copied the URL from the code button in Github and tested that URL in a different browser to ensure the website was indeed
+Then I pushed my code to github using Git.  I copied the URL from the code button in Github and tested that URL in a different browser than I was testing in to ensure the website was indeed working properly.
