@@ -65,7 +65,7 @@ N/A
 
 ## Features
 
-The main features in this project are semantic language and cleaner, commented code in both the HTML and CSS files.
+The main features in this project are semantic HTML code and cleaner, condensed, and commented code in both the HTML and CSS files.
 
 ## How-to-Contribute
 
