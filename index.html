@@ -11,7 +11,7 @@ formatting the website and the title (metadadata name) for the page.
     <title>Find potential customers with Horiseon Social Solution Services, Inc.</title>
 </head>
 <body> <!--<body> contains the elements viewed on the page. It creates the visible page. -->
- <header> <!-- semantic element used to define the page's header-->
+    <header> <!-- semantic element used to define the page's header-->
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav> <!--<nav> element is used to define the area of the page with navigation links. There 3 links appear on the top of the page.-->
             <ul>
@@ -27,10 +27,11 @@ formatting the website and the title (metadadata name) for the page.
             </ul>
         </nav>
     </header> 
-    <section>
-    <div class="hero-image" aria-label="Marketing team in a meeting in a conference room to discuss search engine optimization, online reputation management and social media marketing.">
-    </div>     
+    <section> <!-- <section> element is used to group content that can stand on its own in its own section.  This section is located on the left below the header and hero image and contains 3 images with text describing the company's main work to help clients.   -->
+    <div class="hero-image" aria-label="marketing team in a meeting in a conference room to discuss search engine optimization, online reputation management and social media marketing."></div>
+        </div>     
     </section>
+    <main>   <!-- <main> element is used to define the primary content -->   
     <section class="content"> <!--This section is located on the right below the header and hero image and contains 3 images with text describing the company's other work to help clients. This section also contains ID elements to allow the Nav links to go directly to parts of this section using # in the href in the nav section. Alt tags were added to the img tags for accessibility. -->
         <div id="search-engine-optimization"> 
         <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization" class="float-left" />
@@ -55,28 +56,29 @@ formatting the website and the title (metadadata name) for the page.
         </div>
     </section>
     <aside> <!-- The <aside> element is used to contain content that often appears to one side and provides extra information about the page's topic. Here the aside, along with its css style, displays these images to the right of the content section above. Alt tags were added to the img tags for accessibility-->
-        <div class="benefits">
+        <section class="benefits">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="Lead Generation"/>
+            <img src="./assets/images/lead-generation.png" alt="Inbound strategies for lead generation require less work for your business, bringing customers directly to your website."/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefits">  
+        </section>
+        <section class="benefits">  
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" alt="Brand Awareness"/>
+            <img src="./assets/images/brand-awareness.png" alt="Users find your business through paid and organic searches, increasing the search ranking and visibility for your business."/>
             <p>     
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>  
-        <div class="benefits">
+        </section>  
+        <section class="benefits">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" alt="Cost Management">
+            <img src="./assets/images/cost-management.png" alt="As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.">
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>   
+        </section>   
     </aside>  
+</main>
     <!--semantic HTML footer element to display Horiseon footer. Updated year on copyright symbol-->
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
@@ -84,6 +86,6 @@ formatting the website and the title (metadadata name) for the page.
             &copy; 2022 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
-</main>
+
 </body>
 </html>
