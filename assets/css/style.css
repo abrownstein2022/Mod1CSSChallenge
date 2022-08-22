@@ -20,7 +20,10 @@ CSS Table of Contents (in order of use on page)
 ========================================== */
 
 /* === 1- General/Global Settings Section === */
-* {
+/*All elements by default will have a border with no padding or margin unless they match another more specific value in the css*/
+
+/* SITEWIDE STYLES */
+* {  
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -39,8 +42,7 @@ p {
     font-size: 16px;
 }
 
-/* === 2- Header Section contains navigation links === */
-
+/* HEADER STYLES */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -75,9 +77,8 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* === 3- Hero Image Section below Header ===*/
+/* HERO SECTION */
 
-/*changed class name from hero to hero-image in css and html to be more descriptive*/
 .hero-image {
     height: 800px;
     width: 100%;
@@ -87,17 +88,15 @@ header nav ul li {
     background-position: center;
 }
 
-/* === 4- Content Section - below header and hero-image. To left of Benefits section
- done with "Aside".  Displays Search Engine Optimization, Online Reputation 
- Management and Social Media Marketing blocks. === */
-
-.content  {
+/* MAIN BODY CONTENT */
+main  {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.content div {
+/*div in content class */
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -106,7 +105,8 @@ header nav ul li {
     color: #ffffff;
 }
 
-.content img {
+/*img in content class */
+main img {
     max-height: 200px;
 }
 
@@ -120,7 +120,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-.content h2 {
+main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
