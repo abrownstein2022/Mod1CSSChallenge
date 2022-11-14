@@ -1,6 +1,8 @@
-# Rutgers Bootcamp Challenge 1 - HTML CSS Git: Code Refactor
+# Ch1 - HTML CSS Git: Horiseon Website Code Refactor
 
 ## Description
+
+```md
 This website was created so students can show how to use HTML, CSS and Git as a lesson in Refactoring.  The html and css files needed to be refactored because the original versions weren't written using semantic HTML.  If the original website had been real, handicapped people would have had a hard time using it.  
 
 The new website, like the one I created by refactoring the existing html and css files, will now be accessible to all users.  Plus, the semantic language used in my version will also make my website better optimized for search engines.  
@@ -24,6 +26,7 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
+```
 
 ## Table of Contents
 
