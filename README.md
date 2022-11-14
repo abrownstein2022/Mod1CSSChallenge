@@ -48,7 +48,7 @@ We used the VS Code software to edit code, git to pull the starter code to our l
 ## Usage
 
 Here's a link to my website stored in GitHub:
-https://abrownstein2022.github.io/Mod1CSSChallenge/
+https://abrownstein2022.github.io/ch1-css-html-code-refactor/
 
 Here's a screenshot of my final webpage from a browser:
     
